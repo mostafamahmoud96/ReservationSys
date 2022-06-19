@@ -9,7 +9,7 @@ Use Git and Composer to install Reservation System.
 ```bash
 git clone https://github.com/mostafamahmoud96/ReservationSys.git
 cd ReservationSystem
-mv .env.example .env
+cp .env.example .env
 composer install
 php artisan migrate --seed
 php artisan serve
